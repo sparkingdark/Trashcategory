@@ -53,9 +53,14 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(callGalleryIntent, mGalleryRequestCode)
         }
         mDetectButton.setOnClickListener {
-                val results = mClassifier.recognizeImage(mBitmap).firstOrNull()
-                mResultTextView.text= results?.title+"\n Confidence:"+results?.confidence
-
+            val results = mClassifier.recognizeImage(mBitmap).firstOrNull()
+            val garbage = results?.title
+            mResultTextView.text= results?.title+"\n Confidence:"+results?.confidence
+            if (garbage == "Cardboard" || garbage == "Glass" || garbage == "Metal" || garbage == "Paper" || garbage == "Plastic") {
+                mResultTextView.text= results?.title+"\n Confidence:"+results?.confidence+"\nYou can Recycle!"
+            } else {
+                mResultTextView.text= results?.title+"\n Confidence:"+results?.confidence+"\nYou can't Recycle..."
+            }
         }
     }
 
