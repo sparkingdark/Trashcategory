@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd018fda-9eee-4475-98bc-685413d5cc83" name="Default Changelist" comment="improve UI">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/isomora/com/greendoctor/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/isomora/com/greendoctor/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +151,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="revise UI" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="376" y="25" key="#app" timestamp="1607258709464">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="376" y="25" key="#app/0.25.1280.702@0.25.1280.702" timestamp="1607258709464" />
     <state x="283" y="136" key="AndroidCreateResourceFileDialog" timestamp="1607252553122">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
