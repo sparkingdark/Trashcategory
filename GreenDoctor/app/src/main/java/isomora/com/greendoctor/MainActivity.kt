@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     private val mInputSize = 224
     private val mModelPath = "plant_disease_model.tflite"
     private val mLabelPath = "plant_labels.txt"
-    private val mSamplePath = "soybean.JPG"
+    private val mSamplePath = "trashcan.png"
 
 
     @RequiresApi(Build.VERSION_CODES.O)
