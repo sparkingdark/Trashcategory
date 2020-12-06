@@ -1,4 +1,7 @@
-# Trashcategory
+<img src = "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/303/587/datas/medium.png" style="width:256px;height:256px;"></img>
+
+# Categorical Trash
+
 
 ## Inspiration
 Environment is the most important part of our life and we humans are producing so much trash that mother earth is now polluted so much that we need some good innovation to fight this and solve the problem.That's why we come with categorical trash,an android app.
@@ -11,7 +14,6 @@ It basically a very simple application which takes picture from the users phone 
 ## How we built it
 
 We basically search for some similar opensource code to reuse in our application,so we found the android app from the github and we train a model from the google colab and [teachablemachine](https://teachablemachine.withgoogle.com/).Now we collected data from the [trashnet](https://drive.google.com/drive/folders/0B3P9oO5A3RvSUW9qTG11Ul83TEE).After that we get the tflite model and embedded into our application to run it.Voila it's works awesome.
-<img src = >
 
 ## Challenges we ran into
 
